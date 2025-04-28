@@ -136,4 +136,4 @@ no a MST is not guaranteed to be the solution to MMET. MST focuses on minimizing
 
 - **3c.**
 
-$O(E\logE+nE)$
+$O(E\log E+nE)$
