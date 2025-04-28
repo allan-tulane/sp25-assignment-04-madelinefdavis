@@ -114,7 +114,7 @@ APSP(i,j,k)=min(APSP(i,j,k−1), APSP(i,k,k−1)+APSP(k,j,k−1))
 
 - **2d.**
 
-n*n*n subproblems
+$n*n*n$ subproblems
 
 total work $O(n^3)$
 
@@ -128,5 +128,12 @@ no a MST is not guaranteed to be the solution to MMET. MST focuses on minimizing
 
 - **3b.**
 
+1. compute the MST using Kruskal' alg
+2. then for every edge $e$ is the MST remove $e$ from the MST breaking it into 2 components.
+3. find min edge weight that is not in the MST and reconnect components
+4. create new canidate with replacement
+5. out of all canidates pick the one with the lowest weight after the MST
 
 - **3c.**
+
+$O(E\logE+nE)$
