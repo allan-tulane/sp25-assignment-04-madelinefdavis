@@ -4,16 +4,21 @@
 **Name:**Madeline Davis
 
 - **1a.**
-
+  
+max depth is $\log_d n$
 
 - **1b.**
 
+delete-min: $O(d \log_d n)$
+insert: $O( \log_d n)$
 
 - **1c.**
 
+$O(|V|*d\log_d |V| + |E|*d\log_d |V|)$
+
 - **1d.**
 
-  E/V
+$d = |E|/|V|$
 
 - **2a.**
 
